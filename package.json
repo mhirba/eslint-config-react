@@ -1,0 +1,73 @@
+{
+  "name": "@mhirba/eslint-config-react",
+  "version": "1.0.0",
+  "license": "JAM",
+  "author": "Majdi Toumi <majdi@mhirba.com> (https://mhirba.com)",
+  "description": "Mhirba's ui linter configuration",
+  "keywords": [
+    "mhirba",
+    "config",
+    "typescript",
+    "eslint",
+    "prettier",
+    "react"
+  ],
+  "main": ".eslintrc.js",
+  "files": [
+    ".prettierrc.js",
+    ".stylelintrc.js"
+  ],
+  "engines": {
+    "node": ">=14.16.0",
+    "yarn": ">=2.4.0"
+  },
+  "scripts": {
+    "test": "yarn test:check && yarn test:format && yarn test:styles",
+    "test:check": "yarn tsc",
+    "test:format": "yarn eslint --ext .ts,.tsx tests",
+    "test:styles": "yarn stylelint tests",
+    "deploy": "yarn pinst --disable ; yarn npm publish ; yarn pinst --enable",
+    "postinstall": "yarn husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/mhirba/eslint-config-react.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-prettier": "*",
+    "prettier": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
+  },
+  "devDependencies": {
+    "@mhirba/eslint-config-base": "^1.0.0",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "@yarnpkg/pnpify": "^2.4.0",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "pinst": "^2.1.6",
+    "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "typescript": "^4.2.3"
+  }
+}
