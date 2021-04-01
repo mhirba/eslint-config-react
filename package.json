@@ -1,6 +1,6 @@
 {
   "name": "@mhirba/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "JAM",
   "author": "Majdi Toumi <majdi@mhirba.com> (https://mhirba.com)",
   "description": "Mhirba's ui linter configuration",
@@ -42,17 +42,17 @@
     "eslint-config-prettier": "*",
     "eslint-plugin-jest": "*",
     "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*"
   },
   "devDependencies": {
-    "@mhirba/eslint-config-base": "^1.0.0",
+    "@mhirba/eslint-config-base": "^1.0.1",
     "@types/node": "^14.14.37",
     "@types/react": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
-    "@yarnpkg/pnpify": "^2.4.0",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jest": "^24.3.2",
