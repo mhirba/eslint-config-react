@@ -735,9 +735,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mhirba/eslint-config-base@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@mhirba/eslint-config-base@npm:1.0.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40mhirba%2Feslint-config-base%2F1.0.1%2F27d2356e278da96d0e37cba95a2cfdfc1afce8cc58d0b49e36d4ef01e850ba52"
+"@mhirba/eslint-config-base@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@mhirba/eslint-config-base@npm:1.0.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40mhirba%2Feslint-config-base%2F1.0.3%2F861bdb1917adbc10db8157b781a8f148f484b1d7414bf5f50232d6fbfe604102"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
     "@typescript-eslint/parser": "*"
@@ -746,7 +746,7 @@ __metadata:
     eslint-plugin-jest: "*"
     eslint-plugin-prettier: "*"
     prettier: "*"
-  checksum: 7b9809a129e25d3ff17211bbe4c5a549e67e25d89c1c52d3c965c7d5157bfca941f12db534f985c1cb51565d19c5581962ee1d7152a21edefcd8785bb83de617
+  checksum: 75e69d3f44b326874450f361e504351e61b68765b45d782a53e15b7830c0343b2d9ea7c28510abc83f1e2e75eb6b23f1e9a682e42e499da5117f85d421d1d958
   languageName: node
   linkType: hard
 
@@ -754,7 +754,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mhirba/eslint-config-react@workspace:."
   dependencies:
-    "@mhirba/eslint-config-base": ^1.0.1
+    "@mhirba/eslint-config-base": ^1.0.3
     "@types/node": ^15.3.1
     "@types/react": ^17.0.6
     "@typescript-eslint/eslint-plugin": ^4.24.0
