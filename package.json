@@ -1,6 +1,6 @@
 {
   "name": "@mhirba/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "JAM",
   "author": "Majdi Toumi <majdi@mhirba.com> (https://mhirba.com)",
   "description": "Mhirba's ui linter configuration",
@@ -19,7 +19,7 @@
   ],
   "engines": {
     "node": ">=14.16.0",
-    "yarn": ">=2.4.0"
+    "yarn": ">=1.16.0"
   },
   "scripts": {
     "test": "yarn test:check && yarn test:format && yarn test:styles",
